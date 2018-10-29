@@ -1,0 +1,110 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+}
+html{
+    height: 100%;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 800px;
+}
+body {
+    background-color: #3399CC;
+    border: 20px solid #2B81AC;
+    min-height: 100%;
+    color: white;
+    font-family: Lucida Grande;
+}
+h1{
+
+    font-weight: 700;
+    font-size: 24px;
+    padding: 20px 0;
+}
+.conclusion{
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 0;
+}
+.table {
+    list-style-type: none;
+    font-size: 0;
+    border: 2px solid white;
+    background-color: white;
+}
+li {
+    display: inline-block;
+    border: 2px solid #FFF;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 18px;
+
+    font-weight: 500;
+}
+.weather{
+    font-size: 16px;
+    opacity: 0.5;
+    padding-top: 6px;
+}
+
+ .cell_25 {
+    width: 25%;
+}
+
+ .cell_50 {
+    width: 50%;
+}
+
+ .cell_75 {
+    width: 75%;
+}
+
+ .cell_100 {
+    width: 100%;
+}
+ .cell_blue{
+     background-color: #39C
+ }
+ .cell_aqua{
+     background-color: #33CCCC;
+ }
+ .cell_violet{
+     background-color: #996699;
+ }
+ .cell_red{
+     background-color: #C24747;
+ }
+ .cell_orange{
+     background-color: #E2674A;
+ }
+ .cell_yellow{
+     background-color: #FFCC66;
+ }
+ .cell_green{
+     background-color: #99CC99;
+ }
+ .cell_darkblue{
+     background-color: #669999;
+ }
+ .cell_rose{
+     background-color: #CC6699;
+ }
+ .cell_lightgreen{
+     background-color: #339966;
+ }
+ .cell_purple{
+     background-color: #666699;
+ }
+
+.table:hover > li {
+    opacity: .8;
+}
+.table:hover > li:hover {
+    opacity: 1;
+}
